@@ -37,7 +37,7 @@ const MountainBikeTrail = () => {
         </div>
         <div className="backlog-img">
           <video className="video" autoPlay muted loop>
-            <source src="/" type="video/mp4"></source>
+            <source src="/trailfina.mp4" type="video/mp4"></source>
           </video>
         </div>
       </div>
