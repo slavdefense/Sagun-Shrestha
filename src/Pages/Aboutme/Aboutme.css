@@ -1,0 +1,99 @@
+.about-me-container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5em;
+  /* margin-bottom: 2em; */
+  
+}
+
+.about-me-details{
+  width:900px;
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+
+.about-me-p{
+  margin-top: 2em;
+  font-size: 20px;
+  line-height: 2em;
+  text-align:left;
+  color: black;
+
+  
+}
+
+.links-div{
+  display: flex;
+  margin-top: 12.5em;
+ 
+}
+.github-octocat{
+  height:5px;
+  
+}
+.github-octo{
+  height:35px;
+  width:35px;
+}
+.linkedin-bug{
+  height:35px;
+  width:35px;
+}
+
+.github-linkedin-div{
+  height: 20px;
+  
+  padding: 15px;
+  background-color: #14213d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.github-linkedin-div:hover{
+  background-color:#06d6a0 ;
+}
+.copyright{
+  margin:0 auto;
+}
+
+@media screen and (max-width:1000px) {
+  .about-me-details{
+    width: 600px;
+  }
+  
+  .about-me-p{
+    text-align: center;
+    margin:center;
+  }
+
+}
+
+
+@media screen and (max-width:760px) {
+  .about-me-details{
+    width: 500px;
+  }
+  
+  .about-me-p{
+    text-align: center;
+    margin:center;
+  }
+
+}
+@media screen and (max-width:500px) {
+  .about-me-details{
+    width: 400px;
+  }
+  
+  .about-me-p{
+    text-align: center;
+    margin:center;
+  }
+
+}

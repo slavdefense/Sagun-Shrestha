@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  height: 10vh;
+  width: 100%;
+  /* border: 2px solid white; */
+  justify-content: space-around;
+  align-items: center;
+  /* position: fixed; */
+  bottom: 0px;
+  /* margin-top: 720px; */
+  z-index: 9;
+  position: fixed;
+  background-color: red;
+}
+
+.navbar.active {
+  background-color: transparent;
+}
+.navbarspan {
+  font-size: larger;
+  color: #d00000;
+  color: #ff006e;
+
+  text-decoration: none;
+  background-color: none;
+  transition: font-size 0.5s;
+}
+
+.navbarspan-larger {
+  font-size: 50px;
+  background-color: none;
+}
+
+.navbarspan:hover {
+  font-size: 40px;
+}

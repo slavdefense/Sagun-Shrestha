@@ -1,0 +1,52 @@
+.contact-container {
+  margin-top: 120px;
+}
+
+.form-input-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.input-name,
+.input-message,
+.input-email {
+  display: block;
+  background-color: #343a40;
+  padding: 1em;
+  font-size: 15px;
+}
+
+.input-name,
+.input-email {
+  margin-top: 0.2em;
+  width: 25em;
+  height: 2em;
+}
+
+.question {
+  margin-bottom: 2em;
+  color: #2a9d8f;
+  margin-top: 2em;
+}
+
+.input-message {
+  margin-top: 0.2em;
+  width: 25.1em;
+  position: relative;
+}
+.submit-button {
+  position: absolute;
+  margin-left: 4em;
+  margin-top: 1em;
+  padding: 7px;
+  font-size: 25px;
+}
+
+.submit-button:hover {
+  background-color: #2a9d8f;
+}
