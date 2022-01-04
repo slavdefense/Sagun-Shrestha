@@ -1,3 +1,5 @@
+
+
 import React from "react";
 import "./Display-component.css";
 const Display = () => {
@@ -6,7 +8,7 @@ const Display = () => {
       <div className="intro-vid">
         <div className="video-only-div">
           <video className="video-data" autoPlay muted loop>
-            <source src="/backvid.mp4" type="video/mp4"></source>
+            <source src="/video.mp4" type="video/mp4"></source>
           </video>
         </div>
 
@@ -18,6 +20,5 @@ const Display = () => {
     </div>
   );
 };
-
 
 export default Display;
