@@ -15,7 +15,7 @@ const Slot = () => {
                 <li>Git, JavaScript, dotenv</li>
               </ul>
               <div className="site-github">
-                <a className="site-github-atag"  href="https://spotless-addition.surge.sh/"> Visit Site</a> 
+                <a className="site-github-atag"  href="https://sagun-shresthaslotmachine.surge.sh/"> Visit Site</a> 
               <div className="arrimg"><  img src="/arr1.png" alt="" /></div>
               
               <a className="site-github-atag-octocat" href="https://github.com/slavdefense/mountainbike-trail-youlove"><img src="/Octocat.png" alt="" /></a></div>
