@@ -24,8 +24,8 @@ const Navbar = ({ navComponents }) => {
               to={components.name}
               spy={true}
               smooth={true}
-              offset={50}
-              duration={500}
+              offset={0}
+              duration={2000}
               className="navbarspan"
               key={idx}
             >

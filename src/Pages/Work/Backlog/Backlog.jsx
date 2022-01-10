@@ -39,7 +39,7 @@ const BackLog = () => {
         <div className="backlog-img">
           {/* <img src='/backlog-img.png' alt="" /> */}
           <video className="video" autoPlay muted loop>
-            <source src="/" type="video/mp4"></source>
+            <source src="/backlog.mp4" type="video/mp4"></source>
           </video>
         </div>
       </div>

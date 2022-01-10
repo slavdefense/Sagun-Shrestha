@@ -11,6 +11,9 @@
   z-index: 9;
   position: fixed;
   background-color: red;
+  background-color: #ff006e;
+  background-color: #bdb2ff;
+  background-color: #6a040f;
 }
 
 .navbar.active {
@@ -20,6 +23,7 @@
   font-size: larger;
   color: #d00000;
   color: #ff006e;
+  
 
   text-decoration: none;
   background-color: none;
