@@ -13,7 +13,8 @@
   background-color: red;
   background-color: #ff006e;
   background-color: #bdb2ff;
-  background-color: #6a040f;
+  background-color: rgba(106, 4, 15, .5)
+
 }
 
 .navbar.active {
@@ -37,4 +38,10 @@
 
 .navbarspan:hover {
   font-size: 40px;
+  color:red;
+}
+
+.navbarspan-larger:hover{
+  cursor: grab;
+  color:red;
 }

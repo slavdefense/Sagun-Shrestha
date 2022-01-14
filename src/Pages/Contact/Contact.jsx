@@ -33,7 +33,7 @@ const Contact = () => {
 
           <div className="github-linkedin-div">
             <a href="https://www.linkedin.com/in/sagun-shrestha-9a67b49a/">
-              <img className="linkedin-bug" src="/li-in-Bug.png" alt="" />
+              <img className="linkedin-bug" src="/logl1.png" alt="" />
             </a>
           </div>
         </div>
