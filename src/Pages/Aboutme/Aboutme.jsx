@@ -14,8 +14,15 @@ const AboutMe = () => {
           avid guitarist and Vocalist who loves classic Rock. During spare time,
           I take my mountainbike to explore new trails in Los Angeles. I am also
           a DJ and a photographer. Below please find my Linkedin and Github.
+          
         </p>
+        <button className="resume-button">
+        <a className="resume" href="https://drive.google.com/file/d/1FhuhO03JxnQdU2uObNG3KNQO716qiGml/view?usp=sharing">Resume</a>
+        </button>
+       
+       
         <p className="about-me-p"></p>
+
       </div>
     </div>
   );
