@@ -1,6 +1,6 @@
 import React from "react";
 import "./Contact.css";
-import ScrollToTop from "../../Components/ScrollToTop/ScrollToTopOnMount";
+
 
 const Contact = () => {
   return (

@@ -6,7 +6,6 @@ const Navbar = ({ navComponents }) => {
   const [navbar, setNavbar] = useState(false);
 
   const handleChangeColor = () => {
-    console.log(window.scrollY);
     if (window.scrollY > 115) {
       setNavbar(true);
     } else {
@@ -29,7 +28,7 @@ const Navbar = ({ navComponents }) => {
               className="navbarspan"
               key={idx}
             >
-              <span className={navbar ? "navbarspan-larger" : "navbarspan"}>
+              <span key={components.id} className={navbar ? "navbarspan-larger" : "navbarspan"}>
                 {components.name}
               </span>
             </Link>

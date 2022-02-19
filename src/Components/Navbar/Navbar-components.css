@@ -2,19 +2,15 @@
   display: flex;
   height: 10vh;
   width: 100%;
-  /* border: 2px solid white; */
   justify-content: space-around;
   align-items: center;
-  /* position: fixed; */
   bottom: 0px;
-  /* margin-top: 720px; */
   z-index: 9;
   position: fixed;
   background-color: red;
   background-color: #ff006e;
   background-color: #bdb2ff;
-  background-color: rgba(106, 4, 15, .5)
-
+  background-color: rgba(106, 4, 15, 0.5);
 }
 
 .navbar.active {
@@ -24,7 +20,6 @@
   font-size: larger;
   color: #d00000;
   color: #ff006e;
-  
 
   text-decoration: none;
   background-color: none;
@@ -38,10 +33,16 @@
 
 .navbarspan:hover {
   font-size: 40px;
-  color:red;
+  color: red;
 }
 
-.navbarspan-larger:hover{
+.navbarspan-larger:hover {
   cursor: grab;
-  color:red;
+  color: red;
+}
+
+@media screen and (max-width: 790px) {
+  .navbarspan-larger {
+    font-size: 20px;
+  }
 }

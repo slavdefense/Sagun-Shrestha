@@ -1,32 +1,17 @@
-import React from 'react';
-import Contact from '../Contact/Contact';
-import Work from '../Work/Work';
-import AboutMe from '../Aboutme/Aboutme';
-import "./Home.css"
-import ScrollHome from '../../Components/ScrollToTop/ScrollHome';
-import ScrollToTop from '../../Components/ScrollToTop/ScrollToTopOnMount';
+import React from "react";
+import Contact from "../Contact/Contact";
+import Work from "../Work/Work";
+import AboutMe from "../Aboutme/Aboutme";
+import "./Home.css";
+
 const Home = () => {
-  return ( 
-
-    
+  return (
     <div className="home-div" id="Home">
-     
-     <Work/>
-     <AboutMe/> 
-     <Contact/>
-     
+      <Work />
+      <AboutMe />
+      <Contact />
     </div>
-      
-      
+  );
+};
 
-      
-
-  
-
-
-  
-  
-   );
-}
- 
 export default Home;

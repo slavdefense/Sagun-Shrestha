@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import "./Display-component.css";
 const Display = () => {

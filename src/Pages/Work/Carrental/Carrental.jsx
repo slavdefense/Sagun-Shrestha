@@ -17,6 +17,8 @@ const CarRental = () => {
           </ul>
           <div className="site-github">
             <a
+              target="_blank"
+              rel="noopener noreferrer"
               className="site-github-atag"
               href="https://rentorlistcars.herokuapp.com/"
             >
@@ -28,6 +30,8 @@ const CarRental = () => {
             </div>
 
             <a
+              target="_blank"
+              rel="noopener noreferrer"
               className="site-github-atag-octocat"
               href="https://github.com/slavdefense/Car-rental-made-easy"
             >

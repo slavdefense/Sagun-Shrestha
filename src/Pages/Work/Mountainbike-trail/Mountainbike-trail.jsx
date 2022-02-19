@@ -17,6 +17,8 @@ const MountainBikeTrail = () => {
           </ul>
           <div className="site-github">
             <a
+              target="_blank"
+              rel="noopener noreferrer"
               className="site-github-atag"
               href="https://mountain-bike-trail-sagun.herokuapp.com/trails"
             >
@@ -28,6 +30,8 @@ const MountainBikeTrail = () => {
             </div>
 
             <a
+              target="_blank"
+              rel="noopener noreferrer"
               className="site-github-atag-octocat"
               href="https://github.com/slavdefense/mountainbike-trail-youlove"
             >
