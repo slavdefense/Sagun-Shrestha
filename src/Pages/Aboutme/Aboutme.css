@@ -79,6 +79,11 @@
   padding: 3px;
 }
 
+.resume-icon{
+  width:100px;
+}
+
+
 @media screen and (max-width:1000px) {
   .about-me-details{
     width: 600px;

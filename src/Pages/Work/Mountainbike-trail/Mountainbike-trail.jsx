@@ -8,12 +8,12 @@ const MountainBikeTrail = () => {
         <div className="backlog-info">
           <h1>
             Bike Trail
-            <p className="italic">A MEN Stack application</p>
+            <p className="italic">A MERN Stack application</p>
           </h1>
           <ul>
-            <li>JavaScript, EJS, CSS, HTML5,</li>
-            <li>Mongoose, mongoDB, Express, Passport-google-oauth20</li>
-            <li>Multer, Cloudinary, Whimsical</li>
+            <li>React Js, JavaScript, EJS, CSS, HTML5,</li>
+            <li> MongoDB, Express, Passport-google-oauth20</li>
+            <li>Multer, Cloudinary, Whimsical Wireframes</li>
           </ul>
           <div className="site-github">
             <a

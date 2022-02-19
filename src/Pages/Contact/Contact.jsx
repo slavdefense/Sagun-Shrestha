@@ -36,6 +36,11 @@ const Contact = () => {
               <img className="linkedin-bug" src="/logl1.png" alt="" />
             </a>
           </div>
+          <div className="github-linkedin-div">
+            <a href="mailto:fssagunshrestha@gmail.com">
+              <img className="linkedin-bug" src="/mail-icon.png" alt="Mail" />
+            </a>
+          </div>
         </div>
 
         <div className="copyright">
