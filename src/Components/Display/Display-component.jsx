@@ -12,7 +12,7 @@ const Display = () => {
 
         <div className="name-work-div">
           <span className="display-name">Sagun Shrestha</span>
-          <span className="display-stack">Full Stack Web Developer</span>
+          <span className="display-stack">Data Engineer</span>
         </div>
       </div>
     </div>
